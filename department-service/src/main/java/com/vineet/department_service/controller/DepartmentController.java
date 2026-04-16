@@ -37,6 +37,11 @@ public class DepartmentController {
 		return new ResponseEntity<>(departmentService.getById(id), HttpStatus.OK);
 	}
 	
+	@GetMapping("all-deptemps")
+	public ResponseEntity<List<Department>> getAllEmpByDept(){
+		return new ResponseEntity<>(departmentService.getAllEmpByDept(), HttpStatus.OK);
+	}
+	
 	
 
 }
