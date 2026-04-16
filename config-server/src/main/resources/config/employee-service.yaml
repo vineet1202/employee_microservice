@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8082
 
 eureka:
   client:
@@ -9,4 +9,4 @@ eureka:
 management:
   tracing:
     sampling:
-      probability: 1.0 
+      probability: 1.0
